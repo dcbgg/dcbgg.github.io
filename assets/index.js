@@ -73,7 +73,7 @@ imageInput.addEventListener('change', (event) => {
     data.append("image", file);
 
     // Upload to imgbb API
-    fetch('https://api.imgbb.com/1/upload?key=76240bd58d7f0712715686e0609cbb51', {
+    fetch('https://api.imgbb.com/1/upload?key=7a66c9fd529387a69544274bca66cba1', {
         method: 'POST',
         headers: {
             'Accept': 'application/json',
